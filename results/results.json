@@ -1,0 +1,43 @@
+{
+  "best_epoch": 25,
+  "validation": {
+    "IoU": 0.36600025992999485,
+    "Precision": 0.5162449761878508,
+    "Recall": 0.5570491771969645,
+    "F1": 0.5358714302714475,
+    "TP": 408341.0,
+    "FP": 382642.0,
+    "FN": 324702.0,
+    "TN": 20773339.0
+  },
+  "test": {
+    "IoU": 0.06365558284756832,
+    "Precision": 0.1078646566718902,
+    "Recall": 0.13443274491583193,
+    "F1": 0.11969209064832444,
+    "TP": 5209.0,
+    "FP": 43083.0,
+    "FN": 33539.0,
+    "TN": 4964441.0
+  },
+  "config": {
+    "data_root": "/content/data",
+    "out_dir": "/content",
+    "ckpt_dir": "/content/checkpoints",
+    "image_size": 256,
+    "in_channels": 4,
+    "n_bands": 3,
+    "encoder": "resnet34",
+    "epochs": 30,
+    "batch_size": 8,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "focal_gamma": 2.0,
+    "focal_w": 0.5,
+    "dice_w": 0.5,
+    "threshold": 0.5,
+    "seed": 42,
+    "num_workers": 2,
+    "max_samples": 1000
+  }
+}
