@@ -130,11 +130,9 @@ This will print IoU, Precision, Recall, and F1 for the Change class, plot the co
 
 Download the trained model checkpoint:
 
-**[best_model.pth — Google Drive](YOUR_PUBLIC_DRIVE_LINK_HERE)**
+**[best_model.pth — Google Drive](https://drive.google.com/file/d/1A1CtC5aEqWFfEcTW0dVOIrtr3_PW9hAw/view?usp=sharing)**
 
 Place it at `checkpoints/best_model.pth` before running evaluation.
-
-> Replace `YOUR_PUBLIC_DRIVE_LINK_HERE` with your actual public Google Drive or HuggingFace Hub link.
 
 ---
 
